@@ -103,7 +103,7 @@ def cutout(
     This operation applies a `(mask_height x mask_width)` mask of zeros to
     a location within `images` specified by the offset.
     The pixel values filled in will be of the value `constant_values`.
-    The located where the mask will be applied is randomly
+    The location where the mask will be applied is randomly
     chosen uniformly over the whole images.
 
     Args:
